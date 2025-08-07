@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heart Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-color: pink;
+    }
+    .center-image {
+      display: block;
+      margin: 30px auto;
+      max-width: 200px;
+    }
+    .form-section, .table-section {
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-4">
+
+    <!-- Headings -->
+    <h1 class="text-danger">HELLO</h1>
+    <h2 class="text-primary">HELLO</h2>
+    <h3 class="text-white bg-dark p-2 d-inline-block">HELLO</h3>
+    <h4>HELLO</h4>
+    <h5>HELLO</h5>
+    <h6>HELLO</h6>
+
+    <!-- Ordered & Unordered Lists -->
+    <ol type="I">
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+      <li>d</li>
+    </ol>
+    <ul>
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+      <li>d</li>
+    </ul>
+
+    <!-- Form Section -->
+    <div class="form-section">
+      <form>
+        <div class="form-group">
+          <label>Name:</label>
+          <input type="text" class="form-control" placeholder="Enter your Name">
+        </div>
+
+        <div class="form-group">
+          <label class="text-primary">Password:</label>
+          <input type="password" class="form-control" placeholder="Password">
+        </div>
+
+        <div class="form-group">
+          <label>Email:</label>
+          <input type="email" class="form-control" placeholder="Email enter chey bro">
+        </div>
+
+        <div class="form-group">
+          <label>Mobile:</label>
+          <input type="tel" class="form-control" placeholder="Phone number" required>
+        </div>
+
+        <div class="form-group">
+          <label>Hero:</label>
+          <select class="form-control">
+            <option>select</option>
+            <option>bhAAi</option>
+            <option>k babu</option>
+            <option>M babu</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Address:</label>
+          <textarea class="form-control" rows="3" placeholder="Address pettu"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Gender:</label><br>
+          <div class="form-check form-check-inline">
+            <input type="radio" name="gender" class="form-check-input" required>
+            <label class="form-check-label">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="radio" name="gender" class="form-check-input" required>
+            <label class="form-check-label">Female</label>
+          </div>
+        </div>
+
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input">
+          <label class="form-check-label">I agree with bhAAi</label>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+    </div>
+
+    <!-- Table Section -->
+    <div class="table-section">
+      <h5 class="mb-3">Sample Table</h5>
+      <table class="table table-bordered text-center">
+        <thead class="thead-dark">
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>bhAAi</td>
+            <td>43</td>
+          </tr>
+          <tr>
+            <td><input type="text" class="form-control" placeholder="name"></td>
+            <td>43</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Image -->
+    <img src="https://cdn.pixabay.com/photo/2021/01/11/13/04/heart-5907446_1280.png" class="center-image" alt="3D Heart Image">
+
+    <!-- Heart Cards -->
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://cdn.pixabay.com/photo/2021/01/11/13/04/heart-5907446_1280.png" class="card-img-top" alt="3D Heart">
+          <div class="card-body">
+            <h5 class="card-title">Heart Card 1</h5>
+            <p class="card-text">Love and care begin with a single heart.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Updated just now</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://cdn.pixabay.com/photo/2021/01/11/13/04/heart-5907446_1280.png" class="card-img-top" alt="3D Heart">
+          <div class="card-body">
+            <h5 class="card-title">Heart Card 2</h5>
+            <p class="card-text">A heart that beats with kindness.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Updated 5 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://cdn.pixabay.com/photo/2021/01/11/13/04/heart-5907446_1280.png" class="card-img-top" alt="3D Heart">
+          <div class="card-body">
+            <h5 class="card-title">Heart Card 3</h5>
+            <p class="card-text">Three hearts, three stories, one love.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Updated 10 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,76 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sports Coach Finder</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body style="background-color: pink; background-image: url('https://iansportalimages.s3.amazonaws.com/ianslive_watermark/202508023469941.jpg'); background-size: cover; background-repeat: no-repeat;">
-    
-    <h1>HELLO</h1>
-    <h2>HELLO</h2>
-    <h3>HELLO</h3>
-    <h4>HELLO</h4>
-    <h5>HELLO</h5>
-    <h6>HELLO</h6>
-    <ol type="I">
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
-        <li>d</li>
-    </ol>
-    
-    <ul><li>a</li>
-        <li>b</li>
-        <li>c</li>
-        <li>d</li>
-    </ul>
-    <form>
-        <label>Name:</label>
-            <input type="text" name="Name" placeholder="Enter your Name"><br/><br/>
-        <label>password</label>
-        <input type="password" name="pass" placeholder="Password"><br>
-        <label>Email</label>
-        <input type="email" name="email" placeholder="Email enter chey bro"><br>
-        <label>mobile</label>
-        <input type="phonenumber" name="phno" placeholder="phone number" required><br>
-        <label>Hero</label>
-        <select>
-            <option>select</option>
-            <option value="bhAAi">bhAAi</option>
-            <option value="kbabu">k babu</option>
-            <option value="Mbabu">M babu</option>
-        </select><br>
-        <label>address</label>
-        <textarea cols="30" rows="10" placeholder="Address pettu"></textarea><br>
-        <label>gender :</label>
-        <input type="radio" value="male"  name="gender" required>
-        <label>male</label>
-        <input type="radio" value="female" name="gender" required>
-        <label>female</label><br>
-        <input type="checkbox" value="check" >
-        <label>I agree with bhAAi</label>
-        <input type="submit" name="bhAAi" placeholder="bhAAi">
+<body>
+  <h1>🏏 Sports Coach Finder</h1>
 
-        <table border="1">
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-            </tr>
-            <tr>
-                <td>bhAAi</td>
-                <td>43</td>
-            </tr>
-            <tr>
-                <td><input type="text" value="name" placeholder="name"></td>
-                <td>43</td>
-            </tr>
-        </table>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSacqJGmfLGbyfv3SaWVuwsEDBNiuNdVvYow&s" alt="">
-        
+  <div class="form-container">
+    <form id="signupForm">
+      <h2>Sign Up</h2>
+      <input type="email" id="signupEmail" placeholder="Email" required />
+      <input type="password" id="signupPassword" placeholder="Password" required />
+      <select id="signupRole" required>
+        <option value="">Select Role</option>
+        <option value="player">Player</option>
+        <option value="coach">Coach</option>
+      </select>
+      <button type="submit">Sign Up</button>
     </form>
-    <div class="container" style="display: flex;justify-content: center;">
-        
-    </div>
+
+    <form id="signinForm">
+      <h2>Sign In</h2>
+      <input type="email" id="signinEmail" placeholder="Email" required />
+      <input type="password" id="signinPassword" placeholder="Password" required />
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+
+  <script type="module" src="app.js"></script>
 </body>
 </html>
